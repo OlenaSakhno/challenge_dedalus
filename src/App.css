@@ -36,3 +36,116 @@
     transform: rotate(360deg);
   }
 }
+
+
+#welcome-section{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #313131;
+  height: auto;
+  width: auto;
+  }
+  #welcome-section H1{
+    padding-TOP: 3em ;
+    
+   }
+  #projects{
+    background-color: #2B2B2B;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #projects li{
+    color: #7CBD1E;
+  }
+  h1, h2, h3, h5{
+    color: #7CBD1E;
+    text-align: center;
+  }
+  h2{
+    padding-bottom: 20px;
+  }
+  #certificates{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #313131;
+  }
+  
+  .project-tile{
+    border: 1px solid #7CBD1E;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    box-shadow: 0 0 20px #7CBD1E;
+}
+
+
+  .project-title{
+    background-color: #d0ff61;
+    box-shadow: 0 0 20px #7CBD1E;
+    border-radius: 5px;
+    color: #2d3561;
+    font-size: 28px;
+    font-weight: 600;
+    width:100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  .project-img{
+    width:100%;
+    height: auto;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  }
+
+  #contact{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #2B2B2B;
+    text-align: center;
+    color: #7CBD1E;
+    box-shadow: 5px 3px px #7CBD1E;
+    
+  }
+  #contact h2{
+    color: #7CBD1E;
+
+  }
+  #navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background: #2B2B2B!important;
+    box-shadow: 3px 3px 5px #7CBD1E;
+  }
+  #navbar li a{
+    font-size: 32px!important;
+    font-weight:600!important;
+    color:#7CBD1E!important;
+    margin-right: 30px;
+  
+  }
+
+  .small{
+    font-size: 5px;
+  }
+  
+  label {
+    display: inline-block;
+}
+#error:not(:empty){
+  font-weight: bold;
+  color: aqua;
+  border: 1px solid aqua;
+  border-radius: 5px;
+}

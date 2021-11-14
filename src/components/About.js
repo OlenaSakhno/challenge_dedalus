@@ -3,9 +3,9 @@ import React, {Fragment} from 'react';
 export const About = () =>{
     return(
         <Fragment>
-            <div className="mt-5" id="projects">
+            <div className="mt-5" id="about">
                 <h1>React coding challenge</h1> 
-                <ul>
+                <ul className="mx-5">
                     <li> Build a small single page app using ReactJS</li>
                     <li>The subject of the app is up to you.</li>
                     <li>Ensure you show the use of components</li>

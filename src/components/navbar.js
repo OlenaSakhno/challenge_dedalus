@@ -19,7 +19,7 @@ export const Navbar = () => (
               <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
+              <NavLink className="nav-link" to="/contacts">Contact</NavLink>
             </li>
           </ul>
         </div>

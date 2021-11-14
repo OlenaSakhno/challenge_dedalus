@@ -99,7 +99,8 @@ h2{
     font-size: 5px;
 }
 #error:not(:empty){
-  font-weight: bold;
+
+  font-size: 20px;
   color: aqua;
   border: 1px solid aqua;
   border-radius: 5px;

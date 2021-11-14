@@ -45,7 +45,6 @@ export const Contacts = () => {
                 <h2>Contact</h2><br/>
                 <div className="container">
                     <div className="row">
-                        
                             <form  >
                                 <div className="mb-3">
                                     <label for="username" className="form-label">User name <span>*</span></label>
@@ -56,15 +55,15 @@ export const Contacts = () => {
                                     <input type="email" name="email" id="email" className="form-control" required />
                                 </div>
                                 <div className="mb-3">
-                                <label for="password">Password<span>*</span></label>
-                                <input type="password" name="password" id="password" className="form-control" required/>
+                                    <label for="password">Password<span>*</span></label>
+                                    <input type="password" name="password" id="password" className="form-control" required/>
                                 </div>
                                 <div className="mb-3">
                                     <label for="email">Message<span>*</span></label>
                                     <textarea name="mess" id="mess" className="form-control" spellcheck="false" required minLength ></textarea>
                                 </div>
                                 <br/>
-                                <div id="error"></div>
+                                <div id="error" className="pt-3 pb-3"></div>
                                 <button type="button" id="SubmitBtn" className="btn btn-info mt-3" onClick={handleClick}>Submit</button>
                             </form>
                         

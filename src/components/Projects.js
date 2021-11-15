@@ -3,7 +3,7 @@ import React, {Fragment} from 'react';
 export const Projects = () => {
 
 
-    const pLink = ['"https://laughing-nobel-230c3d.netlify.app/"',
+    const pLink = ["https://laughing-nobel-230c3d.netlify.app/",
                    "http://olena-s.com/",
                     "https://codepen.io/olenasakhno/full/LYyXYXq",
                     "https://react.olena-s.com",
